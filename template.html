@@ -1,6 +1,7 @@
-﻿<html>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Mobile Responsive Email</title>
 
 <style type="text/css">
@@ -9,7 +10,7 @@
 .mobile {display: none;overflow: hidden;visibility:hidden;}
 strong{font-weight: bold;}
 
-	@media only screen and (max-width: 479px){ /**change to max-device-width after testing**/
+	@media only screen and (max-device-width: 720px){ /**change to max-width for testing in browser**/
 		
 	     td[class="desktop"], table[class="desktop"] {
 	         display: none !important;
@@ -31,7 +32,8 @@ strong{font-weight: bold;}
 			height: 243px !important;
 			display: block !important; 			
   			overflow: visible !important;
-			visibility: visible !important;}
+			visibility: visible !important;
+		 }
 		 
 		 td[class="full_width"], table[class="full_width"] {
 	          width: 320px !important;
